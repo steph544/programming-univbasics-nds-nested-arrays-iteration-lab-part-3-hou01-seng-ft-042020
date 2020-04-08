@@ -7,9 +7,9 @@ def join_nested_strings(src)
     if src[counter][element_index].class = String 
       new_array << src[counter][element_index]
     end 
-    counter+=1 
+    element_index+=1 
   end 
-  counter
+  counter+=1 
   new_array.join('')
   # src will be an Array of Arrays of Strings and Integers
   # Combine all Strings present in the AoA into a single value and return it
