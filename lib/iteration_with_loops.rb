@@ -4,7 +4,7 @@ def join_nested_strings(src)
   while counter<src.length do
     element_index=0
     while element_index<src[counter].length 
-    if src[counter][element_index].class? == String 
+    if src[counter][element_index].class == String 
       new_array << src[counter][element_index]
     end 
     element_index+=1 
